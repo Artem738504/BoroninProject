@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackGround"
+    tools:context=".PersonalData">
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/custom_button"
+        android:onClick="onClickSave"
+        android:text="Сохранить"
+        app:cornerRadius="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/editYears"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editYears"
+        app:layout_constraintTop_toBottomOf="@+id/editYears" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:hint="Введите ваше имя"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSecName" />
+
+    <EditText
+        android:id="@+id/editYears"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Укажите ваш возраст"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editSecName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editSecName"
+        app:layout_constraintTop_toBottomOf="@+id/editName" />
+
+    <EditText
+        android:id="@+id/editSecName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Введите вашу фамилию"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editName"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

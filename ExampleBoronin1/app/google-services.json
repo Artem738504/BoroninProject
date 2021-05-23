@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "460706074954",
+    "firebase_url": "https://exampleboronin-default-rtdb.firebaseio.com",
+    "project_id": "exampleboronin",
+    "storage_bucket": "exampleboronin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460706074954:android:944e63901e84cca9c0b1b3",
+        "android_client_info": {
+          "package_name": "com.example.exampleboronin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460706074954-iee4gqu0enogm4co1ahc755t3q9u79sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOxCPqAGv5Yf8E9bpmxRDgQ6EkCf42P_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460706074954-iee4gqu0enogm4co1ahc755t3q9u79sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

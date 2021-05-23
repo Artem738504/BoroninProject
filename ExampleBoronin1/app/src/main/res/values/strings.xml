@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Главная</string>
+    <string name="Start">Старт</string>
+    <string name="Stop">Стоп</string>
+    <string name="Resume">Возобновить</string>
+    <string name="Pause">Пауза</string>
+    <string name="Edit">Редактировать</string>
+    <string name="Back">Назад</string>
+    <string name="Timer">Таймер</string>
+    <string name="Profile">Профиль</string>
+    <string name="logOut">Выход</string>
+    <string name="Next">Далее</string>
+    <string name="Enter">Войти</string>
+    <string name="Data">Настройки</string>
+    <string name="Stop1">Сбросить таймер</string>
+    <string name="Reg">Зарегистрироваться</string>
+    <string name="timer_val" />
+    <string name="password1">Пароль</string>
+    <string name="tv">TextView</string>
+    <string name="next">Продолжить</string>
+    <string name="exit">Выйти</string>
+    <string name="email">Email</string>
+    <string name="SecName">Боронин</string>
+    <string name="Age">16 лет</string>
+    <string name="Name">Артём</string>
+    <string name="Main">На главную</string>
+
+</resources>
