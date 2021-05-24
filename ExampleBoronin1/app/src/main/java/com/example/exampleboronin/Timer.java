@@ -26,7 +26,6 @@ import android.widget.TextView;
 import java.util.Locale;
 
 public class Timer extends AppCompatActivity {
-
     private Chronometer chronometer;
     private long pauseOffset;
     private boolean running;
